@@ -18,8 +18,8 @@ export class Ecg3_raw {
   @Column({ type: 'string' }) Diff_1: string;
   @Column({ type: 'string' }) Diff_2: string;
   @Column({ type: 'string' }) Diff_3: string;
-  @Column({ type: 'int' }) Patient_CodeID: number;
-  @Column({ type: 'int' }) RPN_Id: number;
+  @Column({ type: 'string' }) Patient_CodeID: string;
+  @Column({ type: 'string' }) RPN_Id: string;
   @Column({ type: 'string' }) Result: string;
   @Column({ type: 'string' }) Message: string;
 
