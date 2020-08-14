@@ -69,7 +69,7 @@ query.take=5;
     console.log("null time");
     var temp={
     'userId':params.id,
-    'time':check.lasttime_3lead-5,
+    'time':check.lasttime_3lead,
       'I':null,
       'II':null,
       'III':null,
