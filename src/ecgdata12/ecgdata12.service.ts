@@ -167,15 +167,15 @@ query.take=5;
   d1=d1.concat(_get[p].Diff_1);
   d2=d2.concat(_get[p].Diff_2);
   d3=d3.concat(_get[p].Diff_3);
-  d1=d1.map(x=>x.toFixed(2));
-  d2=d2.map(x=>x.toFixed(2));
-  d3=d3.map(x=>x.toFixed(2));
+  d1=d1.map(x=>x.toFixed(3));
+  d2=d2.map(x=>x.toFixed(3));
+  d3=d3.map(x=>x.toFixed(3));
   a1=a1.concat(_get2[p].Diff_1);
   a2=a2.concat(_get2[p].Diff_2);
   a3=a3.concat(_get2[p].Diff_3);
-  a1=a1.map(x=>(x*1000).toFixed(2));
-  a2=a2.map(x=>(x*1000).toFixed(2));
-  a3=a3.map(x=>(x*1000).toFixed(2));
+  a1=a1.map(x=>(x*1000).toFixed(3));
+  a2=a2.map(x=>(x*1000).toFixed(3));
+  a3=a3.map(x=>(x*1000).toFixed(3));
 
   //_get.Diff_3=_get.Diff_3.map(x=>x*1000);
     total_packet[p]={
