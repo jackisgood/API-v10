@@ -56,7 +56,7 @@ if(params.to) {
 console.log(456);
 console.log(Math.floor(params.from));
 console.log(Math.floor(params.to));
-query.where.Ecg_time= {$gte:Math.floor(params.from/1000) , $lt:Math.floor(params.to/1000)};
+query.where.Ecg_time= {$gte:Math.floor(params.from) , $lt:Math.floor(params.to)};
 query.take=5;
     }
     else if(params.from) {
